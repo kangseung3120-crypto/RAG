@@ -1,0 +1,13 @@
+[project]
+name = "rag-day1"
+version = "0.1.0"
+description = "RAG 1일차 실습 환경 (1장 오전, 2장 오후). 8개 강의 폴더가 이 환경 하나를 함께 씁니다."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    # 2장 1강, 2장 3강: PDF 텍스트 추출
+    "pypdf==6.10.0",
+    # 2장 1강: Document 구조
+    "langchain-core==1.6.1",
+    # 1장 3강 선택 실습: Ollama 호출
+    "httpx==0.28.1",
+]
