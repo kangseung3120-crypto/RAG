@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+graphrag_demo/cache/
+graphrag_demo/output/
+graphrag_demo/logs/

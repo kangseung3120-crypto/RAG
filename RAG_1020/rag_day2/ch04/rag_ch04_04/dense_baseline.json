@@ -1,0 +1,160 @@
+{
+  "intfloat/multilingual-e5-small": {
+    "dimension": 384,
+    "k": 3,
+    "input_format": "passage: +text",
+    "report": {
+      "answerable_count": 10,
+      "unanswerable_count": 2,
+      "hit_at_k": 1.0,
+      "recall_at_k": 1.0,
+      "rows": [
+        {
+          "question_id": "q01",
+          "question": "연차 휴가는 연 몇 일인가요?",
+          "retrieved_document_ids": [
+            "leave",
+            "travel"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q02",
+          "question": "휴가 신청은 언제까지 승인받아야 하나요?",
+          "retrieved_document_ids": [
+            "leave",
+            "travel"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q03",
+          "question": "보안 사고가 의심되면 첫 조치는 무엇인가요?",
+          "retrieved_document_ids": [
+            "incident",
+            "leave"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q04",
+          "question": "침해가 의심되는 장비의 로그를 삭제해도 되나요?",
+          "retrieved_document_ids": [
+            "incident",
+            "equipment"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q05",
+          "question": "출장 숙박 비용 한도와 필요한 증빙은?",
+          "retrieved_document_ids": [
+            "travel",
+            "meal"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q06",
+          "question": "출장 식비와 숙박비의 한도는 각각 얼마이고 두 한도를 합쳐 쓸 수 있나요?",
+          "retrieved_document_ids": [
+            "meal",
+            "travel"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q07",
+          "question": "VPN 계정을 동료와 공유할 수 있나요?",
+          "retrieved_document_ids": [
+            "vpn",
+            "meeting"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q08",
+          "question": "회사 밖 내부 시스템 접속 조건은?",
+          "retrieved_document_ids": [
+            "vpn",
+            "leave"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q09",
+          "question": "직무 교육비 지원 한도와 횟수는?",
+          "retrieved_document_ids": [
+            "education"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q10",
+          "question": "교육비 정산 증빙은 무엇인가요?",
+          "retrieved_document_ids": [
+            "education",
+            "meal",
+            "travel"
+          ],
+          "answerable": true,
+          "hit": 1,
+          "recall": 1.0,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q11",
+          "question": "회사의 올해 매출 목표는 얼마인가요?",
+          "retrieved_document_ids": [
+            "leave",
+            "education"
+          ],
+          "answerable": false,
+          "hit": null,
+          "recall": null,
+          "retrieved_chunks": 3
+        },
+        {
+          "question_id": "q12",
+          "question": "개인 취미 강좌도 지원하나요?",
+          "retrieved_document_ids": [
+            "education",
+            "meeting"
+          ],
+          "answerable": false,
+          "hit": null,
+          "recall": null,
+          "retrieved_chunks": 3
+        }
+      ]
+    },
+    "query_seconds": 0.1106415000394918
+  }
+}

@@ -17,6 +17,18 @@ def prepare_input(question, chunks, k=2):
     # TODO 3: question, context, sources가 있는 dict를 반환하세요.
     return {"question": question, "context": context, "sources": sources}
 
+def prepare_input(question, chunks, k=2):
+    rows = retrieve(question, chunks, method="bm25", k=2)
+    context, sources = build_context(rows, max_chars=260)
+    return {"question": question, "context": context, "sources": sources}
+
+def prepare_input(question, chunks, k=2):
+    rows = retrieve(question, chunks, method="bm25", k=2)
+    context, sources = build_context(rows, max_chars=260)
+    return {"question": question, "context": context, "sources": sources}
+
+def prepare_input(question, chunks, k=2):
+    rows = retrieve(question, chunks)
 
 # ---------- 실행과 확인 (이 아래는 고치지 마세요) ----------
 new_question = "재택근무는 주 몇 회인가요?"
