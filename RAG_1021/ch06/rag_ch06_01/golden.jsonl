@@ -1,0 +1,20 @@
+{"question_id": "q01", "question": "연차 휴가는 연 몇 일인가요?", "relevant_document_ids": ["leave"], "reference": "연 15일", "answerable": true, "split": "dev"}
+{"question_id": "q02", "question": "휴가 신청은 언제까지 승인받아야 하나요?", "relevant_document_ids": ["leave"], "reference": "3영업일 전 팀장 사전 승인", "answerable": true, "split": "dev"}
+{"question_id": "q03", "question": "보안 사고가 의심되면 첫 조치는 무엇인가요?", "relevant_document_ids": ["incident"], "reference": "즉시 보안 담당자 신고", "answerable": true, "split": "dev"}
+{"question_id": "q04", "question": "침해가 의심되는 장비의 로그를 삭제해도 되나요?", "relevant_document_ids": ["incident"], "reference": "로그를 삭제하지 않는다", "answerable": true, "split": "dev"}
+{"question_id": "q05", "question": "출장 숙박 비용 한도와 필요한 증빙은?", "relevant_document_ids": ["travel"], "reference": "1박12만원, 숙박영수증", "answerable": true, "split": "dev"}
+{"question_id": "q06", "question": "출장 식비와 숙박비의 한도는 각각 얼마이고 두 한도를 합쳐 쓸 수 있나요?", "relevant_document_ids": ["meal", "travel"], "reference": "식비는 1일 3만원, 숙박비는 1박 12만원이며 두 한도를 합산할 수 없다", "answerable": true, "split": "dev"}
+{"question_id": "q07", "question": "VPN 계정을 동료와 공유할 수 있나요?", "relevant_document_ids": ["vpn"], "reference": "공유 불가", "answerable": true, "split": "dev"}
+{"question_id": "q08", "question": "회사 밖 내부 시스템 접속 조건은?", "relevant_document_ids": ["vpn"], "reference": "승인 장비+VPN+다중인증", "answerable": true, "split": "dev"}
+{"question_id": "q09", "question": "직무 교육비 지원 한도와 횟수는?", "relevant_document_ids": ["education"], "reference": "분기1회, 30만원", "answerable": true, "split": "dev"}
+{"question_id": "q10", "question": "교육비 정산 증빙은 무엇인가요?", "relevant_document_ids": ["education"], "reference": "수료증+영수증", "answerable": true, "split": "dev"}
+{"question_id": "q11", "question": "회사의 올해 매출 목표는 얼마인가요?", "relevant_document_ids": [], "reference": "문서에 없음", "answerable": false, "split": "dev"}
+{"question_id": "q12", "question": "개인 취미 강좌도 지원하나요?", "relevant_document_ids": [], "reference": "지원 여부 미규정", "answerable": false, "split": "dev"}
+{"question_id": "q13", "question": "재택근무는 일주일에 몇 회 가능한가요?", "relevant_document_ids": ["remote"], "reference": "주2회, 관리자 협의", "answerable": true, "split": "test"}
+{"question_id": "q14", "question": "재택근무 공통 협업 시간은?", "relevant_document_ids": ["remote"], "reference": "10시~16시", "answerable": true, "split": "test"}
+{"question_id": "q15", "question": "회의실 예약 단위와 미사용 해제 기준은?", "relevant_document_ids": ["meeting"], "reference": "30분 단위, 시작후15분 미사용", "answerable": true, "split": "test"}
+{"question_id": "q16", "question": "외부 손님 회의실 방문 전 등록 정보는?", "relevant_document_ids": ["meeting"], "reference": "방문자이름+방문시간", "answerable": true, "split": "test"}
+{"question_id": "q17", "question": "실습 장비 대여 최대 기간과 연장 신청 기한은?", "relevant_document_ids": ["equipment"], "reference": "7일, 반납1영업일전", "answerable": true, "split": "test"}
+{"question_id": "q18", "question": "가상 실습 데이터는 과정 종료 후 며칠 보관하나요?", "relevant_document_ids": ["retention"], "reference": "30일", "answerable": true, "split": "test"}
+{"question_id": "q19", "question": "퇴직금 계산 공식은 무엇인가요?", "relevant_document_ids": [], "reference": "문서에 없음", "answerable": false, "split": "test"}
+{"question_id": "q20", "question": "해외 출장 항공 좌석 등급은?", "relevant_document_ids": [], "reference": "문서에 없음", "answerable": false, "split": "test"}

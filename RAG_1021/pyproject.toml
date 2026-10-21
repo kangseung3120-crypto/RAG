@@ -1,0 +1,12 @@
+[project]
+name = "rag-day3"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx==0.28.1",
+    "langchain-core==1.6.1",
+    "numpy==2.5.2",
+    "qdrant-client==1.19.0",
+    "sentence-transformers==6.0.1",
+    "transformers==5.5.2",
+]
