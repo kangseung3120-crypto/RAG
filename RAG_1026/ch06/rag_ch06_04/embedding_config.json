@@ -1,0 +1,7 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "dimension": 384,
+  "normalized": true,
+  "input_format": "passage: +text",
+  "chunk_fingerprint": "56a6c0eedb001cfb20f793c427142ebfda076c9c9108300f132c774f0ef1a03c"
+}

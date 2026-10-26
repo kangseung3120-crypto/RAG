@@ -1,0 +1,146 @@
+[
+  {
+    "document_id": "leave",
+    "content": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+    "metadata": {
+      "title": "연차 사용 규정",
+      "category": "휴가",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/leave",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "leave-old",
+    "content": "이 규정은 폐기된 교육용 구버전입니다. 연차 휴가는 연 12일로 안내했으나 최신 연차 규정으로 대체되었습니다. 현재 질문에 이 숫자를 사용하지 않습니다.",
+    "metadata": {
+      "title": "연차 사용 규정 구버전",
+      "category": "휴가",
+      "status": "retired",
+      "source_url": "https://example.invalid/rag40/leave-old",
+      "published_at": "2025-01-01",
+      "version": "v1"
+    }
+  },
+  {
+    "document_id": "incident",
+    "content": "보안 사고가 의심되면 즉시 보안 담당자에게 신고합니다. 침해가 의심되는 장비는 네트워크에서 분리하되 임의 초기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습니다.",
+    "metadata": {
+      "title": "보안 사고 대응",
+      "category": "보안",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/incident",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "travel",
+    "content": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정하지 않습니다.",
+    "metadata": {
+      "title": "출장 숙박 정산",
+      "category": "출장",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/travel",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "travel-old",
+    "content": "폐기된 2025년 교육용 규정입니다. 출장 숙박 비용 한도는 1박당 8만원이었습니다. 현행 출장 숙박 규정이 이 내용을 대체하므로 현재 정산 질문에는 사용하지 않습니다.",
+    "metadata": {
+      "title": "출장 숙박 정산 구버전",
+      "category": "출장",
+      "status": "retired",
+      "source_url": "https://example.invalid/rag40/travel-old",
+      "published_at": "2025-01-01",
+      "version": "v1"
+    }
+  },
+  {
+    "document_id": "vpn",
+    "content": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+    "metadata": {
+      "title": "외부 접속과 VPN",
+      "category": "장비",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/vpn",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "education",
+    "content": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니다.",
+    "metadata": {
+      "title": "교육비 지원",
+      "category": "교육",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/education",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "remote",
+    "content": "재택근무는 주 2회까지 운영하며 사전에 관리자와 일정 협의를 완료해야 합니다. 재택근무 중에도 팀의 공통 협업 시간인 오전 10시부터 오후 4시까지 연락 가능 상태를 유지합니다. 근무 장소 변경 시 팀 일정에 표시합니다.",
+    "metadata": {
+      "title": "재택근무 운영",
+      "category": "근무",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/remote",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "meal",
+    "content": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+    "metadata": {
+      "title": "출장 식비 정산",
+      "category": "출장",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/meal",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "meeting",
+    "content": "회의실은 사내 예약 도구로 30분 단위 예약합니다. 예약 시작 후 15분 동안 사용하지 않으면 예약을 해제할 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+    "metadata": {
+      "title": "회의실 예약",
+      "category": "시설",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/meeting",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "equipment",
+    "content": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알리고 임의 수리하지 않습니다. 대여자는 장비 식별자와 인수·반납 상태를 기록합니다.",
+    "metadata": {
+      "title": "장비 대여",
+      "category": "장비",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/equipment",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  },
+  {
+    "document_id": "retention",
+    "content": "교육 실습에서 만든 가상 데이터는 과정 종료 후 30일 동안 복습용으로 보관합니다. 실제 개인정보는 교육 실습 코퍼스에 넣지 않습니다. 공개 문서를 사용할 때도 출처와 수집 시점, 이용 조건을 기록합니다. 원본에 정정 공지가 있으면 갱신 후 검색 색인을 다시 만듭니다.",
+    "metadata": {
+      "title": "교육 자료 보관",
+      "category": "자료",
+      "status": "current",
+      "source_url": "https://example.invalid/rag40/retention",
+      "published_at": "2026-08-01",
+      "version": "v2"
+    }
+  }
+]

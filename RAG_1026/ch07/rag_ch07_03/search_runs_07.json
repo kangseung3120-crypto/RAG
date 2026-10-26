@@ -1,0 +1,1632 @@
+[
+  {
+    "question_id": "q01",
+    "question": "연차 휴가는 연 몇 일인가요?",
+    "bm25": [
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 7.641516213535283
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.9070628463613707
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8211037206469802
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:120",
+        "document_id": "travel",
+        "text": "니다. 이 규정은 교통비와 식비를 정하지 않습니다.",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 148,
+        "score": 0.8020051341996561
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.8001832812744948
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.7950096589596103
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.792625719236844
+      }
+    ]
+  },
+  {
+    "question_id": "q02",
+    "question": "휴가 신청은 언제까지 승인받아야 하나요?",
+    "bm25": [
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 2.1357462366131417
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 2.0846868910560374
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8805693724694154
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8645779652966656
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8431814606582734
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8284258845505383
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.8180839565564644
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8115409871254318
+      }
+    ]
+  },
+  {
+    "question_id": "q03",
+    "question": "보안 사고가 의심되면 첫 조치는 무엇인가요?",
+    "bm25": [
+      {
+        "chunk_id": "incident:c7d960738254:80:20:0",
+        "document_id": "incident",
+        "text": "보안 사고가 의심되면 즉시 보안 담당자에게 신고합니다. 침해가 의심되는 장비는 네트워크에서 분리하되 임의 초기화하거나 로그를 삭제하지 않습니다.",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 9.655338394803868
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "incident:c7d960738254:80:20:0",
+        "document_id": "incident",
+        "text": "보안 사고가 의심되면 즉시 보안 담당자에게 신고합니다. 침해가 의심되는 장비는 네트워크에서 분리하되 임의 초기화하거나 로그를 삭제하지 않습니다.",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8772984190855477
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.823211751264888
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8141630978625132
+      },
+      {
+        "chunk_id": "retention:4543089ed109:80:20:120",
+        "document_id": "retention",
+        "text": "정 공지가 있으면 갱신 후 검색 색인을 다시 만듭니다.",
+        "metadata": {
+          "title": "교육 자료 보관",
+          "category": "자료",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/retention",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 150,
+        "score": 0.8013762845760062
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.7973926431017275
+      },
+      {
+        "chunk_id": "remote:6f51a0e99ec8:80:20:0",
+        "document_id": "remote",
+        "text": "재택근무는 주 2회까지 운영하며 사전에 관리자와 일정 협의를 완료해야 합니다. 재택근무 중에도 팀의 공통 협업 시간인 오전 10시부터 오후 4시",
+        "metadata": {
+          "title": "재택근무 운영",
+          "category": "근무",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/remote",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.7970656024890314
+      }
+    ]
+  },
+  {
+    "question_id": "q04",
+    "question": "침해가 의심되는 장비의 로그를 삭제해도 되나요?",
+    "bm25": [
+      {
+        "chunk_id": "incident:c7d960738254:80:20:0",
+        "document_id": "incident",
+        "text": "보안 사고가 의심되면 즉시 보안 담당자에게 신고합니다. 침해가 의심되는 장비는 네트워크에서 분리하되 임의 초기화하거나 로그를 삭제하지 않습니다.",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 7.9381404218437766
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 2.1357462366131417
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "incident:c7d960738254:80:20:0",
+        "document_id": "incident",
+        "text": "보안 사고가 의심되면 즉시 보안 담당자에게 신고합니다. 침해가 의심되는 장비는 네트워크에서 분리하되 임의 초기화하거나 로그를 삭제하지 않습니다.",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.9091375907636807
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8661577723669539
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:0",
+        "document_id": "equipment",
+        "text": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8195883089377594
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:60",
+        "document_id": "equipment",
+        "text": "실 또는 고장 시 당일 담당자에게 알리고 임의 수리하지 않습니다. 대여자는 장비 식별자와 인수·반납 상태를 기록합니다.",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 126,
+        "score": 0.8163651031928256
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8104997306811351
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:120",
+        "document_id": "travel",
+        "text": "니다. 이 규정은 교통비와 식비를 정하지 않습니다.",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 148,
+        "score": 0.808069167672339
+      }
+    ]
+  },
+  {
+    "question_id": "q05",
+    "question": "출장 숙박 비용 한도와 필요한 증빙은?",
+    "bm25": [
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:0",
+        "document_id": "travel",
+        "text": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 ",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 8.37179552891962
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 2.1357462366131417
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:0",
+        "document_id": "travel",
+        "text": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 ",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.894520684851744
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8749699852433362
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.8444462049509485
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8398851987060068
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:0",
+        "document_id": "equipment",
+        "text": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8192646974267641
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8137241600527306
+      }
+    ]
+  },
+  {
+    "question_id": "q06",
+    "question": "출장 식비와 숙박비의 한도는 각각 얼마이고 두 한도를 합쳐 쓸 수 있나요?",
+    "bm25": [
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 8.304911972694633
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:0",
+        "document_id": "travel",
+        "text": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 ",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 5.721897428132214
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 4.271492473226283
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:60",
+        "document_id": "meeting",
+        "text": " 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 111,
+        "score": 1.9781485180922243
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:60",
+        "document_id": "vpn",
+        "text": "아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 132,
+        "score": 1.716687203743968
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:0",
+        "document_id": "meeting",
+        "text": "회의실은 사내 예약 도구로 30분 단위 예약합니다. 예약 시작 후 15분 동안 사용하지 않으면 예약을 해제할 수 있습니다. 외부 손님이 참석하면",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 1.5525236460201397
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.9133834311204991
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8858173194739309
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:0",
+        "document_id": "travel",
+        "text": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 ",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8767665063848598
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:120",
+        "document_id": "travel",
+        "text": "니다. 이 규정은 교통비와 식비를 정하지 않습니다.",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 148,
+        "score": 0.8600618882650057
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8556544784245439
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8303940671598711
+      }
+    ]
+  },
+  {
+    "question_id": "q07",
+    "question": "VPN 계정을 동료와 공유할 수 있나요?",
+    "bm25": [
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:60",
+        "document_id": "vpn",
+        "text": "아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 132,
+        "score": 6.838318059672055
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:0",
+        "document_id": "vpn",
+        "text": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 2.1893695293143436
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:60",
+        "document_id": "meeting",
+        "text": " 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 111,
+        "score": 1.9781485180922243
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:0",
+        "document_id": "meeting",
+        "text": "회의실은 사내 예약 도구로 30분 단위 예약합니다. 예약 시작 후 15분 동안 사용하지 않으면 예약을 해제할 수 있습니다. 외부 손님이 참석하면",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 1.5525236460201397
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:0",
+        "document_id": "travel",
+        "text": "국내 출장 숙박 비용 한도는 1박당 12만원입니다. 숙박 영수증을 첨부해야 정산할 수 있습니다. 한도 초과 숙박은 예약 전에 담당 임원의 서면 ",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 1.5525236460201397
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:60",
+        "document_id": "vpn",
+        "text": "아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 132,
+        "score": 0.8974926207743805
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:0",
+        "document_id": "vpn",
+        "text": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8628862586572142
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:60",
+        "document_id": "meeting",
+        "text": " 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 111,
+        "score": 0.8271339452388204
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8132417543606307
+      },
+      {
+        "chunk_id": "retention:4543089ed109:80:20:0",
+        "document_id": "retention",
+        "text": "교육 실습에서 만든 가상 데이터는 과정 종료 후 30일 동안 복습용으로 보관합니다. 실제 개인정보는 교육 실습 코퍼스에 넣지 않습니다. 공개 문",
+        "metadata": {
+          "title": "교육 자료 보관",
+          "category": "자료",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/retention",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.811487024079259
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.807740164887073
+      }
+    ]
+  },
+  {
+    "question_id": "q08",
+    "question": "회사 밖 내부 시스템 접속 조건은?",
+    "bm25": [
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:0",
+        "document_id": "vpn",
+        "text": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 6.065361051520171
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:60",
+        "document_id": "vpn",
+        "text": "아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 132,
+        "score": 2.3051212900123974
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:0",
+        "document_id": "vpn",
+        "text": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.892798699364893
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:60",
+        "document_id": "vpn",
+        "text": "아 발급하며 다중 인증을 등록합니다. 공용 PC에서는 내부 시스템에 접속하지 않습니다. VPN 계정은 타인과 공유할 수 없습니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 132,
+        "score": 0.8396358679549959
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.8058054405656656
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:0",
+        "document_id": "meeting",
+        "text": "회의실은 사내 예약 도구로 30분 단위 예약합니다. 예약 시작 후 15분 동안 사용하지 않으면 예약을 해제할 수 있습니다. 외부 손님이 참석하면",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8034669437070627
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:60",
+        "document_id": "meeting",
+        "text": " 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 111,
+        "score": 0.8021921409009003
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.800217232576375
+      }
+    ]
+  },
+  {
+    "question_id": "q09",
+    "question": "직무 교육비 지원 한도와 횟수는?",
+    "bm25": [
+      {
+        "chunk_id": "education:90d265eff486:80:20:0",
+        "document_id": "education",
+        "text": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 2.675078421840881
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 2.547172071178428
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "education:90d265eff486:80:20:0",
+        "document_id": "education",
+        "text": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.911354400685163
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8220442436996716
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:120",
+        "document_id": "education",
+        "text": "부는 이 문서에 규정되어 있지 않습니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 142,
+        "score": 0.8137732798295398
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.8129052823377036
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:0",
+        "document_id": "equipment",
+        "text": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8112221161808959
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8080618424411486
+      }
+    ]
+  },
+  {
+    "question_id": "q10",
+    "question": "교육비 정산 증빙은 무엇인가요?",
+    "bm25": [],
+    "dense": [
+      {
+        "chunk_id": "education:90d265eff486:80:20:0",
+        "document_id": "education",
+        "text": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8397573305860335
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8180229938602731
+      },
+      {
+        "chunk_id": "travel:46fb3976b5b2:80:20:60",
+        "document_id": "travel",
+        "text": "숙박은 예약 전에 담당 임원의 서면 승인을 받아야 합니다. 승인 없이 초과 지출한 금액은 자동 정산되지 않습니다. 이 규정은 교통비와 식비를 정",
+        "metadata": {
+          "title": "출장 숙박 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/travel",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8149629045614539
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8144479450383395
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:0",
+        "document_id": "equipment",
+        "text": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8121857886847598
+      },
+      {
+        "chunk_id": "incident:c7d960738254:80:20:60",
+        "document_id": "incident",
+        "text": "기화하거나 로그를 삭제하지 않습니다. 신고 시 발견 시각, 장비 식별자, 관찰 증상을 남깁니다. 비밀번호나 인증키 원문은 신고 내용에 넣지 않습",
+        "metadata": {
+          "title": "보안 사고 대응",
+          "category": "보안",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/incident",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8079365797455095
+      }
+    ]
+  },
+  {
+    "question_id": "q11",
+    "question": "회사의 올해 매출 목표는 얼마인가요?",
+    "bm25": [],
+    "dense": [
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:0",
+        "document_id": "leave",
+        "text": "연차 휴가는 연 15일입니다. 입사 시점과 근속에 따른 실제 법정 계산을 재현한 자료가 아닌 교육용 가상 규정입니다. 사용자는 휴가 시작 3영업",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.7986388457516594
+      },
+      {
+        "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+        "document_id": "leave",
+        "text": "정입니다. 사용자는 휴가 시작 3영업일 전까지 팀장의 사전 승인을 받아야 합니다. 긴급 상황은 당일 알린 뒤 다음 영업일에 사유를 기록합니다.",
+        "metadata": {
+          "title": "연차 사용 규정",
+          "category": "휴가",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/leave",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 139,
+        "score": 0.7982435777546976
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:0",
+        "document_id": "education",
+        "text": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.784214453667156
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:0",
+        "document_id": "meal",
+        "text": "국내 출장 식비는 1일 3만원까지 영수증으로 정산합니다. 회사가 식사를 제공한 경우 동일 식사 비용을 중복 청구하지 않습니다. 식비와 숙박비 한",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.781381105900991
+      },
+      {
+        "chunk_id": "vpn:f465f4e66321:80:20:0",
+        "document_id": "vpn",
+        "text": "회사 밖에서 내부 시스템에 접속하려면 회사 승인 장비와 VPN을 사용합니다. VPN 계정은 관리자 승인을 받아 발급하며 다중 인증을 등록합니다.",
+        "metadata": {
+          "title": "외부 접속과 VPN",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/vpn",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.7796597158997585
+      },
+      {
+        "chunk_id": "equipment:83055db5df6d:80:20:0",
+        "document_id": "equipment",
+        "text": "실습 장비 대여 기간은 최대 7일입니다. 연장은 반납 예정일 1영업일 전까지 장비 담당자에게 신청합니다. 분실 또는 고장 시 당일 담당자에게 알",
+        "metadata": {
+          "title": "장비 대여",
+          "category": "장비",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/equipment",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.7768269978055415
+      }
+    ]
+  },
+  {
+    "question_id": "q12",
+    "question": "개인 취미 강좌도 지원하나요?",
+    "bm25": [
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 5.094344142356856
+      }
+    ],
+    "dense": [
+      {
+        "chunk_id": "education:90d265eff486:80:20:60",
+        "document_id": "education",
+        "text": "장에게 제출해 승인을 받아야 합니다. 수강 완료 후 수료증과 영수증을 제출합니다. 개인 취미 강좌의 지원 여부는 이 문서에 규정되어 있지 않습니",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.921052966171503
+      },
+      {
+        "chunk_id": "meeting:657833d9677b:80:20:60",
+        "document_id": "meeting",
+        "text": " 수 있습니다. 외부 손님이 참석하면 방문자 이름과 방문 시간을 담당자에게 사전 등록합니다.",
+        "metadata": {
+          "title": "회의실 예약",
+          "category": "시설",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meeting",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 111,
+        "score": 0.8364783975851494
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:0",
+        "document_id": "education",
+        "text": "직무 교육비는 분기 1회, 1인당 30만원까지 지원합니다. 신청자는 과정 소개와 업무 연관성을 수강 전에 팀장에게 제출해 승인을 받아야 합니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 0,
+        "end": 80,
+        "score": 0.8351327730614199
+      },
+      {
+        "chunk_id": "education:90d265eff486:80:20:120",
+        "document_id": "education",
+        "text": "부는 이 문서에 규정되어 있지 않습니다.",
+        "metadata": {
+          "title": "교육비 지원",
+          "category": "교육",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/education",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 120,
+        "end": 142,
+        "score": 0.8216811760744113
+      },
+      {
+        "chunk_id": "meal:de6bd9c00126:80:20:60",
+        "document_id": "meal",
+        "text": "청구하지 않습니다. 식비와 숙박비 한도는 서로 다르며 남은 숙박비 한도를 식비에 합산하지 않습니다.",
+        "metadata": {
+          "title": "출장 식비 정산",
+          "category": "출장",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/meal",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 115,
+        "score": 0.8195570625616827
+      },
+      {
+        "chunk_id": "retention:4543089ed109:80:20:60",
+        "document_id": "retention",
+        "text": "습 코퍼스에 넣지 않습니다. 공개 문서를 사용할 때도 출처와 수집 시점, 이용 조건을 기록합니다. 원본에 정정 공지가 있으면 갱신 후 검색 색인",
+        "metadata": {
+          "title": "교육 자료 보관",
+          "category": "자료",
+          "status": "current",
+          "source_url": "https://example.invalid/rag40/retention",
+          "published_at": "2026-08-01",
+          "version": "v2"
+        },
+        "start": 60,
+        "end": 140,
+        "score": 0.8147316629414161
+      }
+    ]
+  }
+]

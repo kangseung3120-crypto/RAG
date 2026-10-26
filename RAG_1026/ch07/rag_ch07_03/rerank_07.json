@@ -1,0 +1,50 @@
+[
+  {
+    "chunk_id": "travel:46fb3976b5b2:80:20:0",
+    "old_rank": 3,
+    "new_rank": 1,
+    "score": -0.34595152735710144
+  },
+  {
+    "chunk_id": "meal:de6bd9c00126:80:20:60",
+    "old_rank": 1,
+    "new_rank": 2,
+    "score": -0.6453900337219238
+  },
+  {
+    "chunk_id": "meal:de6bd9c00126:80:20:0",
+    "old_rank": 2,
+    "new_rank": 3,
+    "score": -0.8013137578964233
+  },
+  {
+    "chunk_id": "travel:46fb3976b5b2:80:20:120",
+    "old_rank": 5,
+    "new_rank": 4,
+    "score": -4.5396809577941895
+  },
+  {
+    "chunk_id": "travel:46fb3976b5b2:80:20:60",
+    "old_rank": 6,
+    "new_rank": 5,
+    "score": -4.937083721160889
+  },
+  {
+    "chunk_id": "leave:5a1ba9d2dd70:80:20:60",
+    "old_rank": 8,
+    "new_rank": 6,
+    "score": -5.1237406730651855
+  },
+  {
+    "chunk_id": "meeting:657833d9677b:80:20:60",
+    "old_rank": 4,
+    "new_rank": 7,
+    "score": -6.162680149078369
+  },
+  {
+    "chunk_id": "vpn:f465f4e66321:80:20:60",
+    "old_rank": 7,
+    "new_rank": 8,
+    "score": -8.33092212677002
+  }
+]
