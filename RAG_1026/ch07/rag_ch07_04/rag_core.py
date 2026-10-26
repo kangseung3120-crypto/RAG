@@ -127,7 +127,23 @@ def reciprocal_rank_fusion(rankings, k=5, rank_constant=60):
     order = sorted(scores, key=lambda cid: (-scores[cid], cid))[:k]
     return [{**rows[cid], "score": scores[cid]} for cid in order]
 
-
+def reciprocal_rank_fusion(rankings, k=5, rank_constant=60):
+    if k < 1 or rank_constant < 0:
+        raise ValueError("k >= 1, rank_constant >= 0")
+    scores, rows = defaultdict(float), {}
+    for ranking in rankings:
+        seen = set()
+        for rank, row in enumerate(ranking, 1):
+            cid = row["chunk_id"]
+            if cid in seen:
+                continue
+            seen.add(cid)
+            scores[cid] += 1 / (rank_constant + rank)
+            rows[cid] = row
+            rows[cid] = row
+        order = sorted(scores, key=lambda cid: (-scores[cid], cid))[:k]
+        return [{**rows[cid], "score": scores[cid]} for cid in order]
+    
 class DenseIndex:
     """실제 E5 임베딩 + Qdrant local exact search. 최초 실행은 모델 다운로드 필요."""
     # 현재 강의의 청크를 E5로 임베딩한 뒤 메모리 Qdrant에 등록해요.
