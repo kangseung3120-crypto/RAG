@@ -1,0 +1,22 @@
+{
+  "provider": "local_e5",
+  "model": "intfloat/multilingual-e5-small",
+  "document_shape": [
+    10,
+    384
+  ],
+  "query_shape": [
+    384
+  ],
+  "unit_norm": true,
+  "long_input_strategy": "480-token windows; length-weighted mean; normalize again",
+  "long_input_test_passed": true,
+  "external_embedding_requests": 0,
+  "query_top3_document_ids": [
+    "travel",
+    "meal",
+    "education"
+  ],
+  "generation_requests": 0,
+  "graphrag_index_executed": false
+}

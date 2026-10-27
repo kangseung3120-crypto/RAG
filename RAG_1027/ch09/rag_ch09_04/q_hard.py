@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+# 9장 4강 퀴즈: 숙박 한도 행을 고르고 출처까지 출력하기 (Hard: TODO를 직접 완성해요)
+# 이 폴더에서 uv run q_hard.py로 실행해요.
+# main.py를 먼저 실행해 rows를 준비해요. 그래서 기본 예제 출력이 먼저 나오는 게 정상이에요.
+
+from main import *
+
+print("\n" + "=" * 20, "퀴즈", "=" * 20)
+
+# q05(숙박 한도와 증빙)에 필요한 금액 행을 고르고, 숫자의 출처를 함께 출력해요.
+# 계산한 숫자가 어떤 규정에서 왔는지 끝까지 추적할 수 있어야 해요.
+# TODO: rows에서 숙박 규정 행을 chosen에 담으세요.
+# TODO: answer_value에 chosen["limit_won"]을 담고 금액, 원문 ID, source_url을 출력하세요.
+chosen = next(r for r in rows if r["document_id"] == "travel")
+answer_value = chosen["limit_won"]
+print(answer_value, chosen["document_id"], chosen["source_url"])
+
+
+# ---------- 실행과 확인 (이 아래는 고치지 마세요) ----------
+assert answer_value == 120000 and chosen["document_id"] == "travel"
+assert chosen["source_url"].endswith("/travel")
+assert "1박당" in by_id["travel"]["content"] and "숙박 영수증" in by_id["travel"]["content"]
+print("최종 답에는 단위(1박당)와 증빙(숙박 영수증)도 함께 적어요")
+print("\n✅ 정답이에요!")
+print("생각해 보기:", "visual_pages/travel.png를 열어 12만원, 1박당, 숙박 영수증, 한도 초과 승인 문장이 잘리지 않고 보이는지 확인해 보세요.")

@@ -1,0 +1,20 @@
+{
+  "evaluation_model": "gpt-6-luna",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_prefix": "query: on both questions",
+  "embedding_location": "local CPU",
+  "external_embedding_requests": 0,
+  "max_generation_requests": 20,
+  "generation_requests": 0,
+  "api_usage": [],
+  "scores": {},
+  "completed": false,
+  "local_embedding_check": {
+    "shape": [
+      2,
+      384
+    ],
+    "unit_norm": true
+  },
+  "metric_constructors_checked": true
+}

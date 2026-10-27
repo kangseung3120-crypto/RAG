@@ -1,0 +1,135 @@
+{
+  "counts": {
+    "documents": 10,
+    "text_units": 10,
+    "entities": 69,
+    "relationships": 62,
+    "communities": 17,
+    "community_reports": 17
+  },
+  "per_document_coverage": [
+    {
+      "document": "education.txt",
+      "entities": 8,
+      "relationships": 8,
+      "communities": 1
+    },
+    {
+      "document": "equipment.txt",
+      "entities": 8,
+      "relationships": 11,
+      "communities": 1
+    },
+    {
+      "document": "incident.txt",
+      "entities": 7,
+      "relationships": 6,
+      "communities": 1
+    },
+    {
+      "document": "leave.txt",
+      "entities": 6,
+      "relationships": 6,
+      "communities": 1
+    },
+    {
+      "document": "meal.txt",
+      "entities": 5,
+      "relationships": 4,
+      "communities": 1
+    },
+    {
+      "document": "meeting.txt",
+      "entities": 8,
+      "relationships": 6,
+      "communities": 2
+    },
+    {
+      "document": "remote.txt",
+      "entities": 7,
+      "relationships": 6,
+      "communities": 3
+    },
+    {
+      "document": "retention.txt",
+      "entities": 8,
+      "relationships": 4,
+      "communities": 4
+    },
+    {
+      "document": "travel.txt",
+      "entities": 6,
+      "relationships": 5,
+      "communities": 1
+    },
+    {
+      "document": "vpn.txt",
+      "entities": 8,
+      "relationships": 6,
+      "communities": 3
+    }
+  ],
+  "all_documents_have_entities_relationships_and_communities": true,
+  "entity_description_delimiter_artifacts": 0,
+  "corrected_extraction_responses": [
+    {
+      "file": "144b49609757df581e30c3d4ff88c95965922859c110d7a3cb5483d8ad7ef396_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "160d81677d1ffa0310b2538e3c20ca3f3200a69ae4fe349bc9d8417ad5ee5437_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "206956322ccce611b0bc682c950bfdd93b54b2235e9e0c1a4b282058c2721fd1_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "2663adf21d0a75600671ad1ccabfb9a3aa594acb799c89780c995f6810e4e72f_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "5d602ad8109c60f4ac5cf0ef8810102d1b66f1a172ed444151075c066616bd0c_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "6fa589934b33f0db5572c0841290572e8389f8e659001eed2b8961cec2325842_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "721bbe79d3245949b03cd21a152a753da22742bceb958cc5ce0a85b2b88a5580_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "9dd0b9dc399cdcbc4729c55164a7562ce0da3d01169539c2a6b31c442fcc414d_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "b7e0dc22f8ddb084c659fa883708ae2c4f70770af32fd21526011ec9bacb0666_v4",
+      "finish_reason": "stop"
+    },
+    {
+      "file": "f34421121dadb9f884af3572f08468a0502be10677310eaae50450cb55ad554b_v4",
+      "finish_reason": "stop"
+    }
+  ],
+  "community_report_titles": [
+    "관리자와 VPN 계정 운영 규정",
+    "재택근무 횟수 및 사전 일정 협의 정책",
+    "재택근무 운영 및 팀 일정 정책",
+    "회사 외부 내부 시스템 접속 정책",
+    "정정 공지 반영 및 검색 색인 재생성 정책",
+    "공개 문서 정보 기록 정책과 공개 문서",
+    "교육 실습 가상 데이터 보관 정책",
+    "실제 개인정보 배제 정책과 교육 실습 코퍼스",
+    "국내 출장 숙박비 한도·정산 정책",
+    "국내 출장 식비·숙박비 정산 기준",
+    "재택근무 운영 문서와 관련 정책",
+    "연차 휴가 사용 규정과 승인 절차",
+    "실습 장비 대여 및 관리 절차",
+    "외부 손님 방문 정보 사전 등록 정책",
+    "보안 사고 대응 정책 및 신고 절차",
+    "직무 교육비 지원 정책과 승인·증빙 절차",
+    "회의실 예약 및 미사용 시 해제 정책"
+  ]
+}

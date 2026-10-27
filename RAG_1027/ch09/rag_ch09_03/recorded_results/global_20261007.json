@@ -1,0 +1,9 @@
+{
+  "method": "global",
+  "question": "비용 정산 규정에서 공통으로 요구하는 절차는 무엇인가요?",
+  "response": "확인된 숙박비·식비 정산에서는 **영수증을 증빙으로 제출**해야 합니다. 다만 이것이 모든 비용 정산 규정에 공통으로 적용되는 절차인지는 자료만으로 확인되지 않습니다. [Data: Reports (5, 6)]\n\n직무 교육비는 별도 규정으로, 수강 전에 과정 소개와 업무 연관성을 제출해 팀장 승인을 받고, 수강 후 수료증과 영수증을 제출해야 합니다. [Data: Reports (12)]",
+  "elapsed_seconds": 12.49348820000887,
+  "response_is_variable_model_output": true,
+  "recorded_date": "2026-10-07",
+  "is_student_current_run": false
+}

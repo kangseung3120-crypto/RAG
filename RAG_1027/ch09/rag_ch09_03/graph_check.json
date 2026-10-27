@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "documents": 10,
+    "text_units": 10,
+    "entities": 70,
+    "relationships": 65,
+    "communities": 17,
+    "community_reports": 17
+  },
+  "coverage": [
+    {
+      "document": "education.txt",
+      "entities": 8,
+      "relationships": 8,
+      "communities": 1
+    },
+    {
+      "document": "equipment.txt",
+      "entities": 8,
+      "relationships": 11,
+      "communities": 1
+    },
+    {
+      "document": "incident.txt",
+      "entities": 7,
+      "relationships": 6,
+      "communities": 1
+    },
+    {
+      "document": "leave.txt",
+      "entities": 6,
+      "relationships": 6,
+      "communities": 1
+    },
+    {
+      "document": "meal.txt",
+      "entities": 6,
+      "relationships": 5,
+      "communities": 1
+    },
+    {
+      "document": "meeting.txt",
+      "entities": 7,
+      "relationships": 5,
+      "communities": 2
+    },
+    {
+      "document": "remote.txt",
+      "entities": 7,
+      "relationships": 7,
+      "communities": 3
+    },
+    {
+      "document": "retention.txt",
+      "entities": 8,
+      "relationships": 4,
+      "communities": 4
+    },
+    {
+      "document": "travel.txt",
+      "entities": 8,
+      "relationships": 7,
+      "communities": 1
+    },
+    {
+      "document": "vpn.txt",
+      "entities": 8,
+      "relationships": 6,
+      "communities": 3
+    }
+  ],
+  "all_documents_represented": true
+}

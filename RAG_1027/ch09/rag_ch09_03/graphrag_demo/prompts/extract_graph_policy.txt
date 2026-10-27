@@ -1,0 +1,18 @@
+Extract a knowledge graph from the provided Korean training policy document.
+Allowed entity types: {entity_types}
+
+Use Korean entity names and descriptions. A policy, a role, a required document, an action, or a resource can be an entity even when no named person or company appears. Extract the central policy and the explicitly stated supporting entities and relationships. Keep approximately 4 to 8 entities per short input. Extract only what the source states.
+
+Preserve amounts, units, frequency, deadlines, responsible roles, prerequisites, exceptions, prohibitions, and explicitly unspecified conditions in descriptions. Keep each condition attached to its own policy. Do not turn a conditional approval into a universal requirement. Use policy-specific names for distinct approval actions. Reuse a generic document name only when it is actually the same kind of evidence. Every relationship endpoint must have an entity record. Do not invent an organization, approver, obligation, eligibility decision, or relationship to make the graph connected.
+
+Output only records in this exact format. The literal record labels must remain in English with double quotes:
+("entity"<|>entity_name<|>entity_type<|>entity_description)
+##
+("relationship"<|>source_entity_name<|>target_entity_name<|>relationship_description<|>integer_strength_from_1_to_10)
+##
+<|COMPLETE|>
+
+Put ## between every record and also before the final completion marker. Do not use Markdown code fences. Do not use the delimiters inside descriptions. Include the supported entities and relationships in this single response.
+
+Source document:
+{input_text}
